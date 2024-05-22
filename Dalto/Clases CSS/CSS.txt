@@ -1,0 +1,73 @@
+CSS
+
+basico
+
+atributo es lo que esta dentro de las etiquetas
+propiedades son de css y se acceden de otra manera
+
+como integrar css?
+1) estilos en linea: dentro de la etiqueta colocamos style="css"
+2) etiqueta style en el mismo html
+3) etiqueta link que linkea una hoja de estilos, se pone en el head
+<link rel="stylesheet" href="styles-margin.css">
+	
+selector = nombre del elemento
+{} inician y terminan bloque
+propiedad que quiero modificar
+valor que le quiero dar
+
+selectores:
+	elemento -> nomelemento -> busca el elemento html que se llama de esa manera y lo modifica
+	clases -> utilizamos el atributo class="nomclase" luego en css utilizamos el selector .nomclase
+	id -> se le puede dar solo a un elemento en toda la pagina  en css utilizamos el selector #nomelemento
+
+propiedades:	
+	propiedades de texto:
+		color:   ;
+		font-family:   ; puede ponerse entre comillas o no, cuando el nombre de la tipografia tiene dos palabras van si o si entre comillas. Pueden agregarse 				 varias tipografias separadas por comas para que si una no carga, intente cargar la siguiente y asi.
+		font-size:   ; cambia el tamaño de la letra.
+		font-weight:  ; bold(700-negrita), bolder(va mas alla), del 100 al 900 puede variar la anchura.
+		font-style:  ; italic, normal (default), oblique, oblique xxdeg (futuro).
+		text-align:  ; left, right, center, justify, start, end (solo se aplica a los que tienen un contenedor mas grande que el texto).		
+		text-decoration:   ; overline, underline, line-trough
+		line-height:  ; interlineado, va por numero.
+		letter-spacing: ; espacio entre letras.
+		text-transform: ; uppercase, lowercase, none, capitalize(1 letra de cada palabra en mayuscula),
+		
+	@font-face Nos permite definir un nuevo valor para una nueva propiedad
+		font-family: ; nombre de la nueva propiedad (nombre de la nueva fuente, en este caso tiene que ser un nombre de tipografía).
+		URL donde esta descargada la tipografía
+		format formato ttf -> truetype
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+										BOX MODEL
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Teoricamente
+
+Modelo de caja concepto que describe como se diseñan y como se deben ubicar los elementos en una pagina web.
+Como dimensionar las cajas y como interactuan entre si.
+Propiedades:
+	Content: Nucleo del box model, donde se muestra el contenido que va a tener la caja, ya sea texto o imagenes.
+	Padding: Espacio entre el contenido y el borde de la caja.
+	Border: linea que rodea el content y el padding, se puede configurar a gusto.
+	Margin: Espacio al rededor de la caja que separa al elemento de otros. Esta propiedad esta fuera de la caja.
+
+<div> </div> bloquesito
+
+width ancho
+height alto
+Si en width ponemos el numero en porcentaje eso representa a un porcentaje en el dispositivo que se este utilizando (esta copado para que se pueda usar desde el celu).
+Si estan dentro de otro elemento y vos le das valor en porcentaje, el porcentaje que tiene es respecto a la caja que lo contiene, osea si lo contiene una caja de 400px el 90%, seria el 90% de 400
+
+Padding y Margin
+
+Padding: 
+Espacio entre el contenido y el borde, aumenta el tamaño al rededor del contenido, pero dentro de los bordes.
+1 valor : para todos los lados
+4 valores: cuanto tiene cada lado en sentido agujas del reloj. Top right bottom left.
+2 valores: horizontal, vertical
+
+Margin:
+Margin colapse: los margenes se superponen, el margen mas grande se superpone al mas pequeño. Es decir el margen total no es la suma del margen de arriba de un elemento mas el margen de abajo de otro elemento, sino que la separacion total que van a tener va a ser la mayor de las dos. (Esto sucede cuando los elementos son hermanos)
+CLASS ELEMENTOS
+Si le quiero dar dos clases diferentes a un elemento, dentro de las comillas separo con un espacio y aplico el segundo nombre

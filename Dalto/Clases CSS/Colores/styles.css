@@ -1,0 +1,20 @@
+.boxrgb {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(200,100,200);
+    margin: 10px;
+}
+
+.boxhexa {
+    height: 100px;
+    width: 100px;
+    background-color: #7ca;
+    margin: 10px;
+}
+
+.boxhsl {
+    height: 100px;
+    width: 100px;
+    background-color: hsl(185, 40%, 70%);
+    margin: 10px;
+}

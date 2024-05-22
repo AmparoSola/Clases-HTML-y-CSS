@@ -1,0 +1,29 @@
+div {
+    background-color: crimson;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: antiquewhite;
+}
+
+div {
+    border: 5px solid brown; 
+
+    border-width: 5px;
+    border-color:brown;
+    border-style:solid;
+    border-radius:10px 20px 10% 20%;
+}
+
+input{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-top: 2px solid brown;
+    border-left: 2px solid brown;
+    background-color: antiquewhite;
+}
+.boton{
+    border-radius: 10px;
+    color: brown;
+}

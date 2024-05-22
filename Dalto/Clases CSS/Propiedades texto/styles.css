@@ -1,0 +1,20 @@
+p {
+    color: rgb(12, 1, 19);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align: justify;
+    
+
+    line-height: 2;
+    letter-spacing: 1px;
+    text-transform: capitalize ;
+}
+
+h1 {
+    color:chartreuse;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 900;
+}

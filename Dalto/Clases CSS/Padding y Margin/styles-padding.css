@@ -1,0 +1,19 @@
+.formulario {
+    background-color: lightgreen;
+    padding: 40px 80px;
+}
+
+.formulario_input {
+    padding: 6px 10px;
+    width: 90%;
+    color: darkolivegreen;
+    margin: 10px;
+}
+
+.formulario_submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: darkolivegreen;
+    color: lightgreen;
+    width: 50%;
+}
