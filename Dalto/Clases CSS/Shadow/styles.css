@@ -1,0 +1,30 @@
+body{
+    margin:0;
+
+}
+.box {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: #e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 90px 0 #0007;
+    box-sizing: border box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: #777;
+    text-align: center;
+    text-shadow: 0 0 5px #f66;
+}
+
+p {
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    text-shadow: 0 0 5px #f99;
+}
