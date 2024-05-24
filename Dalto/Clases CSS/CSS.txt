@@ -69,5 +69,75 @@ Espacio entre el contenido y el borde, aumenta el tamaño al rededor del conteni
 
 Margin:
 Margin colapse: los margenes se superponen, el margen mas grande se superpone al mas pequeño. Es decir el margen total no es la suma del margen de arriba de un elemento mas el margen de abajo de otro elemento, sino que la separacion total que van a tener va a ser la mayor de las dos. (Esto sucede cuando los elementos son hermanos)
+
+Border
+
+Border: Esta propiedad nos permite modificar aspectos de los bordes: tamaño, estilo, color
+border-widht tamaño
+border-style estilo (por lo general solid o hidden)
+border-color (se puede poner transparent por lo cual existe el borde pero no se ve)
+border-radius porcentajes estilo del redondeo es diferente, que con pixeles
+border-radius:  ; con dos parametros afecta diagonales, con cuatro paramentros afecta las cuatro esquinas en el orden de las agujas del reloj.
+
+border: width style color;  todo en una linea con paramentros
+border-top: ;
+border-bottom: ;
+border-right: ;
+border-left: ;
+
+Box sizing
+
+box sizing: determinar la forma en la que cada componente de la caja interactuan entre si. Afecta al modelo de caja predeterminado.
+
+content box cuando agreguemos padding y eso la caja va a seguir creciendo porque content box solo tiene en cuenta el tamaño del contenido.
+
+border box cuando lo hacemos con border box todo menos el margen debe ajustarse al tamaño dado.
+
+en el index puede verse claramente
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CLASS ELEMENTOS
 Si le quiero dar dos clases diferentes a un elemento, dentro de las comillas separo con un espacio y aplico el segundo nombre
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Color:
+tres formas mas comunes de dar color
+RGB, RGBA
+HSL, HSLA (tiene menos colores)
+HEXADECIMAL
+
+el mejor picker segun Dalto htmlcolorcodes
+
+RGB -> 256 posibles combinaciones para cada valor, osea 256 red, 256 blue, 256 green.
+valor entre 0-255 para cada color
+Si ponemos todo en 255 tenemos blanco
+Si ponemos todo en 0 tenemos negro
+RGBA -> ALFA habla de la transparencia, opacidad.
+valores para el cuarto parametro van desde 0(transparente) a 1(opaco) tambien se pueden dar porcentajes.
+
+Si queremos elegir un color especifico estetico vamos a rgba picker en goolg
+
+Hexadecimal
+
+#00ff00; seria solo verde
+El primer valor elige uno de los 16 tonos y el 16 otro de ellos para unirlo.
+si vamos a usar los mismos tonos no es necesario colocar los dos valores sino que poniendo #0f0 ya basta
+
+00 -> cero absoluto
+ff -> el mas fuerte
+
+000 -> blanco
+fff-> negro
+
+0 1 2 3 4 5 6 7 8 9 a b c d f
+
+Se le agrega un cuarto parametro para la opacidad
+
+HSLA
+hue -> rueda que nos permite seleccionar la matiz 0 rojo 120 verde 240 azul
+saturacion -> porcentaje
+lightness -> luminancia en porcentaje tambien
+
+
+
+Unidades de medida
